@@ -1,0 +1,18 @@
+<timezones>
+    <timezone id="Pacific/Honolulu">Hawaii</timezone>
+    <timezone id="America/Anchorage">Alaska</timezone>
+    <timezone id="America/Los_Angeles">Pacific Time</timezone>
+    <timezone id="America/Tijuana">Tijuana</timezone>
+    <timezone id="America/Phoenix">Arizona</timezone>
+    <timezone id="America/Chihuahua">Chihuahua</timezone>
+    <timezone id="America/Denver">Mountain Time</timezone>
+    <timezone id="America/Costa_Rica">Central America</timezone>
+    <timezone id="America/Chicago">Central Time</timezone>
+    <timezone id="America/Mexico_City">Mexico City</timezone>
+    <timezone id="America/Regina">Saskatchewan</timezone>
+    <timezone id="America/Bogota">Bogota</timezone>
+    <timezone id="America/New_York">Eastern Time</timezone>
+    <timezone id="America/Caracas">Venezuela</timezone>
+    <timezone id="America/Barbados">Atlantic Time (Barbados)</timezone>
+    <timezone id="America/Halifax">Atlantic Time (Canada)</timezone>
+</timezones>

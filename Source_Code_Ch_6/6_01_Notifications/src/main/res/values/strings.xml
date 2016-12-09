@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="main_label">Notifications Recipe</string>
+    <string name="private_label">Private Notifications</string>
+    <string name="reply_label">Reply</string>
+    <string name="label">Reply</string>
+    <string name="title">New message</string>
+    <string name="content">This is a message you can reply to.</string>
+    <string name="replied">Replied to message…</string>
+</resources>

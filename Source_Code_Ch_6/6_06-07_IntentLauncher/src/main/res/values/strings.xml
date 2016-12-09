@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IntentLauncher</string>
+    <string name="label_launch">Launch Apps</string>
+    <string name="label_system">Launch System Apps</string>
+</resources>

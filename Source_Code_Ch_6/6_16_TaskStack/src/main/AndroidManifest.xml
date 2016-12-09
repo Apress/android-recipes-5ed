@@ -1,0 +1,41 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.androidrecipes.taskstack"
+          android:versionCode="1"
+          android:versionName="1.0">
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="TaskStack"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".RootActivity"
+            android:label="@string/title_activity_root">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ItemsListActivity"
+            android:parentActivityName=".RootActivity">
+            <!-- Parent definition for the support library -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".RootActivity"/>
+        </activity>
+        <activity
+            android:name=".DetailsActivity"
+            android:parentActivityName=".ItemsListActivity">
+            <!-- Parent definition for the support library -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ItemsListActivity"/>
+            <!-- Supply a filter to allow external launches -->
+            <intent-filter>
+                <action android:name="com.examples.taskstack.ACTION_NEW_ARRIVAL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

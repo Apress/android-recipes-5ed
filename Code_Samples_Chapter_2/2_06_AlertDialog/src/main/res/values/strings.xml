@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Dialog Recipes</string>
+    <string name="label_dialog">Dialogs</string>
+    <string name="label_custom">Custom Dialog Items</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<purchase id="ab07c952-4207-46c3-b1f1-1b55a4cfb1b1">
+    <timestamp>2016-06-25 13:45:25</timestamp>
+    <productName>Nexus 5X</productName>
+    <productId>N5X</productId>
+    <deliveryAddress>
+        <name>Anders Johnson</name>
+        <street>Homestreet 10</street>
+        <zip>123456</zip>
+        <city>Hometown</city>
+        <state>CA</state>
+        <country>USA</country>
+    </deliveryAddress>
+    <units>1</units>
+    <amount>15045</amount>
+    <currency>$</currency>
+</purchase>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <RadioGroup
+        android:id="@+id/options_group"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Rich Styles"/>
+
+        <RadioButton
+            android:id="@+id/option_basic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Basic Notification"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/option_bigtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BigText Style"/>
+
+        <RadioButton
+            android:id="@+id/option_bigpicture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BigPicture Style"/>
+
+        <RadioButton
+            android:id="@+id/option_inbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Inbox Style"/>
+
+        <RadioButton
+            android:id="@+id/option_reply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notification with Reply"/>
+
+        <RadioButton
+            android:id="@+id/option_bundled"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bundled notification"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Secured Styles"/>
+
+        <RadioButton
+            android:id="@+id/option_private"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Public Version Lockscreen"/>
+
+        <RadioButton
+            android:id="@+id/option_secret"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Secret Lockscreen"/>
+
+        <RadioButton
+            android:id="@+id/option_headsup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Heads-Up Notification"/>
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Post a Notification"
+        android:onClick="onPostClick"/>
+</LinearLayout>

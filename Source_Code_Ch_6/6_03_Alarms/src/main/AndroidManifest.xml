@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.androidrecipes.alarms"
+          android:versionCode="1"
+          android:versionName="1.0">
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name">
+        <activity
+            android:name=".AlarmActivity"
+            android:label="@string/label_alarms">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".JobSchedulerActivity"
+            android:label="@string/label_jobs">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <service android:name=".AlarmService"/>
+        <service
+            android:name=".WorkerService"
+            android:permission="android.permission.BIND_JOB_SERVICE"/>
+
+    </application>
+</manifest>

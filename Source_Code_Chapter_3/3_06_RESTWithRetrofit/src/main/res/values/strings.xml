@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">REST</string>
+    <string name="menu_settings">Settings</string>
+    <string name="label_rest">Basic REST</string>
+    <string name="label_auth">Authenticated REST</string>
+    <string name="title_activity_retrofit">RetrofitActivity</string>
+    <string name="refresh">Refresh</string>
+
+</resources>

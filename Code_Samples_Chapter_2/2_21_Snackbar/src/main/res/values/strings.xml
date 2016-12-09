@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Snackbar</string>
+    <string name="names_deleted">%d names deleted.</string>
+    <string name="undo_label">Undo</string>
+</resources>

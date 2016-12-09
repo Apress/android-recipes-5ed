@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:appcompat="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_add"
+        android:title="Add Item"
+        android:icon="@android:drawable/ic_menu_add"
+        appcompat:showAsAction="always|collapseActionView"
+        appcompat:actionLayout="@layout/view_action"/>
+    <item
+        android:id="@+id/menu_remove"
+        android:title="Remove Item"
+        android:icon="@android:drawable/ic_menu_delete"
+        appcompat:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/menu_edit"
+        android:title="Edit Item"
+        android:icon="@android:drawable/ic_menu_edit"
+        appcompat:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/menu_settings"
+        android:title="Settings"
+        android:icon="@android:drawable/ic_menu_preferences"
+        appcompat:showAsAction="never"/>
+</menu>

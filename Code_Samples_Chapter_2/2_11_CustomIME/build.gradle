@@ -1,0 +1,26 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    defaultConfig {
+        applicationId "com.androidrecipes.customime"
+        minSdkVersion 9
+        targetSdkVersion rootProject.ext.targetSdkVersion
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile "com.android.support:support-compat:${rootProject.ext.supportLibVersion}"
+    compile "com.android.support:support-core-utils:${rootProject.ext.supportLibVersion}"
+    compile "com.android.support:support-core-ui:${rootProject.ext.supportLibVersion}"
+    compile "com.android.support:support-fragment:${rootProject.ext.supportLibVersion}"
+}

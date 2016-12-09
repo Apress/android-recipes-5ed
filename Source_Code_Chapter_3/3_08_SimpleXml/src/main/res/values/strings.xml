@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">XmlPull</string>
+    <string name="label_feed">XmlPull Feed</string>
+    <string name="label_local">XmlPull Resource</string>
+    <string name="simple_xml_title">Simple XML</string>
+</resources>

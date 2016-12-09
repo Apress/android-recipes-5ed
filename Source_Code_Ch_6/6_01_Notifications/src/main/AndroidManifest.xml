@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.androidrecipes.notifications"
+          android:versionCode="1"
+          android:versionName="1.0">
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/main_label"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".NotificationActivity"
+            android:label="@string/main_label"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".MonitorService"
+            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
+            <intent-filter>
+                <action android:name="android.service.notification.NotificationListenerService"/>
+            </intent-filter>
+        </service>
+
+        <service android:name=".ReplyReceiverService"/>
+    </application>
+</manifest>

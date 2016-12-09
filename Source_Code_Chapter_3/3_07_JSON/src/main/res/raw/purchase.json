@@ -1,0 +1,17 @@
+{
+  "purchase_id": "ab07c952-4207-46c3-b1f1-1b55a4cfb1b1",
+  "timestamp": "2016-06-25 13:45:25",
+  "product_name": "Nexus 5X",
+  "product_id": "N5X",
+  "delivery_address": {
+    "name": "Anders Johnson",
+    "street": "Homestreet 10",
+    "zip": "123456",
+    "city": "Hometown",
+    "state": "CA",
+    "country": "USA"
+  },
+  "units": 1,
+  "purchase_amount": 15045,
+  "currency": "$"
+}
