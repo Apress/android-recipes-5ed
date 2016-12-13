@@ -1,0 +1,45 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.androidrecipes.sharepreferences"
+          android:versionCode="1"
+          android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15"/>
+
+    <permission
+        android:name="com.androidrecipes.sharepreferences.permission.READ_PREFERENCES"
+        android:label="Read Application Settings"
+        android:protectionLevel="normal"/>
+    <permission
+        android:name="com.androidrecipes.sharepreferences.permission.WRITE_PREFERENCES"
+        android:label="Write Application Settings"
+        android:protectionLevel="dangerous"/>
+
+    <uses-permission android:name="com.examples.sharepreferences.permission.READ_PREFERENCES"/>
+    <uses-permission android:name="com.examples.sharepreferences.permission.WRITE_PREFERENCES"/>
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SettingsActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.examples.sharepreferences.ACTION_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name=".SettingsProvider"
+            android:authorities="com.androidrecipes.sharepreferences.settingsprovider"
+            android:readPermission="com.androidrecipes.sharepreferences.permission.READ_PREFERENCES"
+            android:writePermission="com.androidrecipes.sharepreferences.permission.WRITE_PREFERENCES">
+        </provider>
+    </application>
+
+</manifest>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:key="preferenceEnabled"
+        android:title="Set Enabled"
+        android:defaultValue="true"/>
+    <EditTextPreference
+        android:key="preferenceName"
+        android:title="User Name"
+        android:defaultValue="John Doe"/>
+    <ListPreference
+        android:key="preferenceSelection"
+        android:title="Selection"
+        android:entries="@array/selection_items"
+        android:entryValues="@array/selection_items"
+        android:defaultValue="Four"/>
+</PreferenceScreen>

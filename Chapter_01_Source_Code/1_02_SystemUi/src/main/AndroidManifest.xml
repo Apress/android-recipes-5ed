@@ -1,0 +1,35 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.androidrecipes.systemui"
+          android:versionCode="1"
+          android:versionName="1.0">
+
+    <application
+        android:label="@string/app_name"
+        android:icon="@drawable/ic_launcher">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <!-- Sub-activities -->
+        <activity
+            android:name=".DarkActivity"
+            android:theme="@style/Theme.AppCompat"/>
+        <activity
+            android:name=".FullActivity"
+            android:theme="@style/Theme.AppCompat"/>
+        <activity
+            android:name=".HideActivity"
+            android:theme="@style/Theme.AppCompat"/>
+        <activity
+            android:name=".ImmersiveActivity"
+            android:theme="@style/Theme.AppCompat"/>
+        <activity
+            android:name=".ImmersiveStickyActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+    </application>
+
+</manifest>

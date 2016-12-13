@@ -1,0 +1,14 @@
+Executable : /Users/hellman/Library/Android/sdk/cmake/bin/cmake
+arguments : 
+-H/Users/hellman/Sources/android-recipes/8_02_NativeAppGlue
+-B/Users/hellman/Sources/android-recipes/8_02_NativeAppGlue/.externalNativeBuild/cmake/debug/arm64-v8a
+-GAndroid Gradle - Ninja
+-DANDROID_ABI=arm64-v8a
+-DANDROID_NDK=/Users/hellman/Library/Android/sdk/ndk-bundle
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/hellman/Sources/android-recipes/8_02_NativeAppGlue/.externalNativeBuild/cmake/debug/obj/arm64-v8a
+-DCMAKE_BUILD_TYPE=Debug
+-DCMAKE_MAKE_PROGRAM=/Users/hellman/Library/Android/sdk/cmake/bin/ninja
+-DCMAKE_TOOLCHAIN_FILE=/Users/hellman/Library/Android/sdk/cmake/android.toolchain.cmake
+-DANDROID_NATIVE_API_LEVEL=21
+jvmArgs : 
+

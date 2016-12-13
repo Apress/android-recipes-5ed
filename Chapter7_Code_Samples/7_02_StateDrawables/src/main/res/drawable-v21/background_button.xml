@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+        android:color="#0CC">
+    <!-- Default drawable to display -->
+    <item android:drawable="@drawable/button_default"/>
+    <!-- Clipping mask for the ripple to match default -->
+    <item
+        android:id="@android:id/mask"
+        android:drawable="@drawable/button_default"/>
+</ripple>

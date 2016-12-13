@@ -1,0 +1,11 @@
+# ninja log v5
+0	120	0	CMakeFiles/native_app_glue.dir/Users/hellman/Library/Android/sdk/ndk-bundle/sources/android/native_app_glue/android_native_app_glue.c.o	5d7dff693a93ed31
+120	141	0	libnative_app_glue.a	124c64e122887ae1
+141	213	0	CMakeFiles/native-activity.dir/src/main/c/activity.c.o	f210a503c94f8bcf
+213	237	0	../obj/armeabi/libnative-activity.so	3af6812c1f82f54c
+0	100	0	build.ninja	7b19a0006a61439f
+0	77	0	build.ninja	7b19a0006a61439f
+0	80	0	CMakeFiles/native_app_glue.dir/Users/hellman/Library/Android/sdk/ndk-bundle/sources/android/native_app_glue/android_native_app_glue.c.o	b988fddebc91257c
+80	98	0	libnative_app_glue.a	124c64e122887ae1
+98	156	0	CMakeFiles/native-activity.dir/src/main/c/activity.c.o	84cad2d8e69934ea
+156	177	0	../obj/armeabi/libnative-activity.so	3af6812c1f82f54c

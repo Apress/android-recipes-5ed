@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="widgetPadding">16dp</dimen>
+    <dimen name="buttonWidth">128dp</dimen>
+    <dimen name="buttonHeight">56dp</dimen>
+</resources>

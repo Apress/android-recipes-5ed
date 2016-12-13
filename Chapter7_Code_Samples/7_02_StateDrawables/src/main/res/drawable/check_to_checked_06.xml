@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <inset
+            android:insetBottom="@dimen/check_padding"
+            android:insetLeft="@dimen/check_padding"
+            android:insetRight="@dimen/check_padding"
+            android:insetTop="@dimen/check_padding">
+            <shape
+                android:shape="rectangle">
+                <corners
+                    android:radius="8dp"/>
+                <stroke
+                    android:width="2dp"
+                    android:color="#000"/>
+                <solid
+                    android:color="#FFF"/>
+                <size
+                    android:width="@dimen/check_size"
+                    android:height="@dimen/check_size"/>
+            </shape>
+        </inset>
+    </item>
+    <item>
+        <inset
+            android:insetBottom="@dimen/step_06"
+            android:insetLeft="@dimen/step_06"
+            android:insetRight="@dimen/step_06"
+            android:insetTop="@dimen/step_06">
+            <shape android:shape="oval">
+                <solid android:color="#A0CC"/>
+            </shape>
+        </inset>
+    </item>
+</layer-list>

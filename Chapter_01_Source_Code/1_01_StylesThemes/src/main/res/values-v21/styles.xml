@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Style for tinting features not supported in pre-21 compat library -->
+    <style name="AppTheme" parent="BaseAppTheme">
+
+        <!-- Set default button tint color -->
+        <item name="android:colorButtonNormal">?attr/colorControlNormal</item>
+
+        <!-- Control the color of the overscroll glows -->
+        <item name="android:colorEdgeEffect">?attr/colorPrimary</item>
+    </style>
+</resources>

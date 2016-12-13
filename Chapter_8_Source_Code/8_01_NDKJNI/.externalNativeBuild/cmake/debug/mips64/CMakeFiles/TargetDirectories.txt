@@ -1,0 +1,2 @@
+/Users/hellman/Sources/android-recipes/8_01_NDKJNI/.externalNativeBuild/cmake/debug/mips64/CMakeFiles/cpufeatures.dir
+/Users/hellman/Sources/android-recipes/8_01_NDKJNI/.externalNativeBuild/cmake/debug/mips64/CMakeFiles/features.dir

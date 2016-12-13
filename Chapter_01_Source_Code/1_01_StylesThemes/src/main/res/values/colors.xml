@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryBlue">#00BCD4</color>
+    <color name="primaryDarkBlue">#0097A7</color>
+    <color name="accentPink">#E91E63</color>
+
+    <color name="controlNormalGreen">#81C784</color>
+    <color name="controlActivatedGreen">#4CAF50</color>
+</resources>

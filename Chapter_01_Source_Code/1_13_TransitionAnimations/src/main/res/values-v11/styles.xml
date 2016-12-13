@@ -1,0 +1,16 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="NativeFragmentTheme" parent="android:Theme.Holo.Light">
+        <item name="android:windowAnimationStyle">@style/FragmentAnimation</item>
+    </style>
+
+    <style name="FragmentAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:fragmentOpenEnterAnimation">@animator/fragment_enter</item>
+        <item name="android:fragmentOpenExitAnimation">@animator/fragment_exit</item>
+        <item name="android:fragmentCloseEnterAnimation">@animator/fragment_pop_enter</item>
+        <item name="android:fragmentCloseExitAnimation">@animator/fragment_pop_exit</item>
+        <item name="android:fragmentFadeEnterAnimation">@android:animator/fade_in</item>
+        <item name="android:fragmentFadeExitAnimation">@android:animator/fade_out</item>
+    </style>
+
+</resources>

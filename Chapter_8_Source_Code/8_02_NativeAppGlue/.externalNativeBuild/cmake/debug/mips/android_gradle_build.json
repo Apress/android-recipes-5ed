@@ -1,0 +1,59 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/hellman/Sources/android-recipes/8_02_NativeAppGlue/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/Users/hellman/Library/Android/sdk/cmake/bin/cmake --build /Users/hellman/Sources/android-recipes/8_02_NativeAppGlue/.externalNativeBuild/cmake/debug/mips --target clean"
+	],
+	"libraries" : 
+	{
+		"native-activity-Debug-mips" : 
+		{
+			"abi" : "mips",
+			"artifactName" : "native-activity",
+			"buildCommand" : "/Users/hellman/Library/Android/sdk/cmake/bin/cmake --build /Users/hellman/Sources/android-recipes/8_02_NativeAppGlue/.externalNativeBuild/cmake/debug/mips --target native-activity",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : " -DANDROID -Dnative_activity_EXPORTS -isystem /Users/hellman/Library/Android/sdk/ndk-bundle/platforms/android-9/arch-mips/usr/include -isystem /Users/hellman/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/hellman/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips/include -isystem /Users/hellman/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -I/Users/hellman/Library/Android/sdk/ndk-bundle/sources/android/native_app_glue  -fexceptions -fpic -Wno-psabi --sysroot=/Users/hellman/Library/Android/sdk/ndk-bundle/platforms/android-9/arch-mips -fno-strict-aliasing -finline-functions -funwind-tables -fmessage-length=0 -fno-inline-functions-called-once -fgcse-after-reload -frerun-cse-after-loop -frename-registers -fsigned-char -no-canonical-prefixes -fdata-sections -ffunction-sections -Wa,--noexecstack  -fno-omit-frame-pointer -O0 -g -DDEBUG -D_DEBUG        ",
+					"src" : "/Users/hellman/Sources/android-recipes/8_02_NativeAppGlue/src/main/c/activity.c",
+					"workingDirectory" : "/Users/hellman/Sources/android-recipes/8_02_NativeAppGlue/.externalNativeBuild/cmake/debug/mips"
+				}
+			],
+			"output" : "/Users/hellman/Sources/android-recipes/8_02_NativeAppGlue/.externalNativeBuild/cmake/debug/obj/mips/libnative-activity.so",
+			"toolchain" : "18164525739809843368"
+		},
+		"native_app_glue-Debug-mips" : 
+		{
+			"abi" : "mips",
+			"artifactName" : "native_app_glue",
+			"buildCommand" : "/Users/hellman/Library/Android/sdk/cmake/bin/cmake --build /Users/hellman/Sources/android-recipes/8_02_NativeAppGlue/.externalNativeBuild/cmake/debug/mips --target native_app_glue",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : " -DANDROID -isystem /Users/hellman/Library/Android/sdk/ndk-bundle/platforms/android-9/arch-mips/usr/include -isystem /Users/hellman/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/hellman/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips/include -isystem /Users/hellman/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -I/Users/hellman/Library/Android/sdk/ndk-bundle/sources/android/native_app_glue  -fexceptions -fpic -Wno-psabi --sysroot=/Users/hellman/Library/Android/sdk/ndk-bundle/platforms/android-9/arch-mips -fno-strict-aliasing -finline-functions -funwind-tables -fmessage-length=0 -fno-inline-functions-called-once -fgcse-after-reload -frerun-cse-after-loop -frename-registers -fsigned-char -no-canonical-prefixes -fdata-sections -ffunction-sections -Wa,--noexecstack  -fno-omit-frame-pointer -O0 -g -DDEBUG -D_DEBUG        ",
+					"src" : "/Users/hellman/Library/Android/sdk/ndk-bundle/sources/android/native_app_glue/android_native_app_glue.c",
+					"workingDirectory" : "/Users/hellman/Sources/android-recipes/8_02_NativeAppGlue/.externalNativeBuild/cmake/debug/mips"
+				}
+			],
+			"output" : "/Users/hellman/Sources/android-recipes/8_02_NativeAppGlue/.externalNativeBuild/cmake/debug/mips/libnative_app_glue.a",
+			"toolchain" : "18164525739809843368"
+		}
+	},
+	"toolchains" : 
+	{
+		"18164525739809843368" : 
+		{
+			"cCompilerExecutable" : "/Users/hellman/Library/Android/sdk/ndk-bundle/toolchains/mipsel-linux-android-4.9/prebuilt/darwin-x86_64/bin/mipsel-linux-android-gcc",
+			"cppCompilerExecutable" : "/Users/hellman/Library/Android/sdk/ndk-bundle/toolchains/mipsel-linux-android-4.9/prebuilt/darwin-x86_64/bin/mipsel-linux-android-g++"
+		}
+	}
+}

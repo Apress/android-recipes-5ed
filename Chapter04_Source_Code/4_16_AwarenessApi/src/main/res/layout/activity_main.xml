@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.androidrecipes.awareness.AwarnessActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select awareness fence type."
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"/>
+
+    <RadioGroup
+        android:id="@+id/fenceSelection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/beaconFence"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Beacon"/>
+
+        <RadioButton
+            android:id="@+id/walkingFence"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Walking"/>
+
+        <RadioButton
+            android:id="@+id/headphoneFence"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Headphone (plugged in)"/>
+
+        <RadioButton
+            android:id="@+id/locationFence"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Location (Google HQ)"/>
+
+        <RadioButton
+            android:id="@+id/lunchtimeFence"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Lunchtime (daily)"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/fenceActivateBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activate"
+        android:onClick="doActivateFence"/>
+
+</LinearLayout>

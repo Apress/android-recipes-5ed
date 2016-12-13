@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Vector Drawables</string>
+    <string name="path_cross">M24,0 l 0,48 M0,24 l 48,0</string>
+    <string name="path_check">M9,36 l 20,0 M27,36 l 0,-36</string>
+</resources>

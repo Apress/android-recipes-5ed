@@ -1,0 +1,14 @@
+# ninja log v5
+0	329	0	CMakeFiles/cpufeatures.dir/Users/hellman/Library/Android/sdk/ndk-bundle/sources/android/cpufeatures/cpu-features.c.o	37539ca467c3316
+329	377	0	libcpufeatures.a	70d3bd7f36ccd231
+377	420	0	CMakeFiles/features.dir/src/main/c/NativeLibAlternate.c.o	f6d395ee1336f522
+420	445	0	../obj/mips/libfeatures.so	c4c1a4a2029627f1
+0	97	0	build.ninja	e662234c21a787ad
+0	217	0	CMakeFiles/cpufeatures.dir/Users/hellman/Library/Android/sdk/ndk-bundle/sources/android/cpufeatures/cpu-features.c.o	37539ca467c3316
+217	260	0	libcpufeatures.a	70d3bd7f36ccd231
+260	304	0	CMakeFiles/features.dir/src/main/c/NativeLibAlternate.c.o	f6d395ee1336f522
+304	328	0	../obj/mips/libfeatures.so	c4c1a4a2029627f1
+0	239	0	CMakeFiles/cpufeatures.dir/Users/hellman/Library/Android/sdk/ndk-bundle/sources/android/cpufeatures/cpu-features.c.o	f76bf0fb47c6ba57
+239	283	0	libcpufeatures.a	70d3bd7f36ccd231
+283	324	0	CMakeFiles/features.dir/src/main/c/NativeLibAlternate.c.o	6786863da00e201
+324	368	0	../obj/mips/libfeatures.so	c4c1a4a2029627f1

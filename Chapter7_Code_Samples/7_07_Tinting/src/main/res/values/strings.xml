@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Tinting Drawables</string>
+    <string name="label_filters">Color Filters</string>
+    <string name="label_tint">Tint Colors</string>
+</resources>

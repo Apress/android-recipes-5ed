@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:stretchColumns="*">
+
+    <TableRow>
+
+        <ImageView
+            android:id="@+id/image_normal"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:scaleType="fitCenter"/>
+
+        <ImageView
+            android:id="@+id/image_blurred"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:scaleType="fitCenter"/>
+    </TableRow>
+
+    <TableRow>
+
+        <ImageView
+            android:id="@+id/image_greyscale"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:scaleType="fitCenter"/>
+
+        <ImageView
+            android:id="@+id/image_sharpen"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:scaleType="fitCenter"/>
+    </TableRow>
+
+    <TableRow>
+
+        <ImageView
+            android:id="@+id/image_edge"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:scaleType="fitCenter"/>
+
+        <ImageView
+            android:id="@+id/image_emboss"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:scaleType="fitCenter"/>
+    </TableRow>
+
+</TableLayout>

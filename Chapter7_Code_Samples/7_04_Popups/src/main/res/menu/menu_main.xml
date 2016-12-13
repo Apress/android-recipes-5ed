@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/group"
+        android:checkableBehavior="all">
+        <item
+            android:id="@+id/menu_option_first"
+            android:title="First Option"/>
+        <item
+            android:id="@+id/menu_option_second"
+            android:title="Second Option"/>
+    </group>
+    <item
+        android:id="@+id/menu_save"
+        android:title="Save"/>
+</menu>

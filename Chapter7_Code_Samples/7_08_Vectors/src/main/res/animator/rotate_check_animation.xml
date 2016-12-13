@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+     android:ordering="sequentially">
+    <objectAnimator
+        android:duration="@android:integer/config_longAnimTime"
+        android:propertyName="rotation"
+        android:valueFrom="45"
+        android:valueTo="405"/>
+    <objectAnimator
+        android:duration="1000"
+        android:propertyName="rotation"
+        android:valueFrom="405"
+        android:valueTo="45"
+        android:startOffset="@android:integer/config_longAnimTime"/>
+</set>

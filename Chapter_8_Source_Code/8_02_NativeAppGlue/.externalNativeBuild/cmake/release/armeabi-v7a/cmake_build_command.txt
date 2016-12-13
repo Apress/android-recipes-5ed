@@ -1,0 +1,14 @@
+Executable : /Users/hellman/Library/Android/sdk/cmake/bin/cmake
+arguments : 
+-H/Users/hellman/Sources/android-recipes/8_02_NativeAppGlue
+-B/Users/hellman/Sources/android-recipes/8_02_NativeAppGlue/.externalNativeBuild/cmake/release/armeabi-v7a
+-GAndroid Gradle - Ninja
+-DANDROID_ABI=armeabi-v7a
+-DANDROID_NDK=/Users/hellman/Library/Android/sdk/ndk-bundle
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/hellman/Sources/android-recipes/8_02_NativeAppGlue/.externalNativeBuild/cmake/release/obj/armeabi-v7a
+-DCMAKE_BUILD_TYPE=Release
+-DCMAKE_MAKE_PROGRAM=/Users/hellman/Library/Android/sdk/cmake/bin/ninja
+-DCMAKE_TOOLCHAIN_FILE=/Users/hellman/Library/Android/sdk/cmake/android.toolchain.cmake
+-DANDROID_NATIVE_API_LEVEL=9
+jvmArgs : 
+

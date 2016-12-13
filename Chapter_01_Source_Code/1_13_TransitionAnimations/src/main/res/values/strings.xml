@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">TransitionAnimations</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Activity Transitions</string>
+    <string name="title_activity_support">Support Fragment Transitions</string>
+    <string name="title_activity_native">Native Fragment Transitions</string>
+
+</resources>

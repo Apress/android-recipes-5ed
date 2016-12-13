@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Image Mask</string>
+    <string name="label_shader">Bitmap Shader</string>
+    <string name="label_xfer">Bitmap XferMode</string>
+    <string name="label_outline">Outline Masks</string>
+</resources>

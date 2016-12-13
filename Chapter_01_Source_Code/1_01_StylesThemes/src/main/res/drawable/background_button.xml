@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Pressed background state -->
+    <item android:state_pressed="true">
+        <inset
+            android:insetLeft="@dimen/widgetPadding"
+            android:insetTop="@dimen/widgetPadding"
+            android:insetRight="@dimen/widgetPadding"
+            android:insetBottom="@dimen/widgetPadding">
+            <shape android:shape="rectangle">
+                <solid android:color="@color/primaryDarkBlue"/>
+            </shape>
+        </inset>
+    </item>
+    <!-- Default background state -->
+    <item>
+        <inset
+            android:insetLeft="@dimen/widgetPadding"
+            android:insetTop="@dimen/widgetPadding"
+            android:insetRight="@dimen/widgetPadding"
+            android:insetBottom="@dimen/widgetPadding">
+            <shape android:shape="rectangle">
+                <solid android:color="@color/primaryBlue"/>
+            </shape>
+        </inset>
+    </item>
+</selector>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Styles and Themes</string>
+    <string name="label_theme">Custom Theme</string>
+    <string name="label_style">Styled Widgets</string>
+</resources>

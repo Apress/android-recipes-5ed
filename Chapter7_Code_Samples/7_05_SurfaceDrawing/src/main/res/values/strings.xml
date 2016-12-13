@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">SurfaceDrawing</string>
+    <string name="menu_settings">Settings</string>
+    <string name="label_surface">SurfaceView</string>
+    <string name="label_texture">TextureView</string>
+
+</resources>

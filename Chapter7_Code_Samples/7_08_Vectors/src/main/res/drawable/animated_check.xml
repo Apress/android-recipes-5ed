@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+                 xmlns:tools="http://schemas.android.com/tools"
+                 android:drawable="@drawable/vector_cross"
+                 tools:ignore="NewApi">
+<!-- This animation is not supported by AnimatedVectorDrawableCompat
+    <target
+        android:name="cross"
+        android:animation="@animator/check_animation"/>
+-->
+    <target
+        android:name="rotateContainer"
+        android:animation="@animator/rotate_check_animation"/>
+</animated-vector>

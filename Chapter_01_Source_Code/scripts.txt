@@ -1,0 +1,7 @@
+# Update compile SDK
+find . -type f -name build.gradle -exec sed -i '' 's/compileSdkVersion.*$/compileSdkVersion 21/' {} +
+grep -r compileSdkVersion .
+
+# Update target SDK
+find . -type f -name build.gradle -exec sed -i '' 's/targetSdkVersion.*$/targetSdkVersion 21/' {} +
+grep -r targetSdkVersion .

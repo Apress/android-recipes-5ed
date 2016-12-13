@@ -1,0 +1,48 @@
+<resources>
+
+    <style name="BaseAppTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <!-- Action bar background color -->
+        <item name="colorPrimary">@color/primaryBlue</item>
+        <!-- Status bar tint color -->
+        <item name="colorPrimaryDark">@color/primaryDarkBlue</item>
+        <!-- Default color applied to all focused/activated controls -->
+        <item name="colorAccent">@color/accentPink</item>
+
+        <!-- Unselected controls color -->
+        <item name="colorControlNormal">@color/controlNormalGreen</item>
+        <!-- Activated control color; overrides accent -->
+        <item name="colorControlActivated">@color/controlActivatedGreen</item>
+    </style>
+
+    <style name="AppTheme" parent="BaseAppTheme">
+        <!-- PUT ANYTHING HERE SPECIFIC TO PRE-21 VERSIONS -->
+    </style>
+
+    <!-- Widget Styles -->
+    <style name="LabelText" parent="android:TextAppearance.Large">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="FormButton" parent="android:Widget.Button">
+        <item name="android:minWidth">@dimen/buttonWidth</item>
+        <item name="android:background">@drawable/background_button</item>
+        <item name="android:textColor">@color/accentPink</item>
+    </style>
+
+    <style name="FormRadioButton" parent="android:Widget.CompoundButton.RadioButton">
+        <item name="android:minHeight">@dimen/buttonHeight</item>
+        <item name="android:button">@null</item>
+        <item name="android:background">@drawable/background_radio</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="FormCheckBox" parent="android:Widget.CompoundButton.CheckBox">
+        <item name="android:minHeight">@dimen/buttonHeight</item>
+        <item name="android:minWidth">@dimen/checkboxWidth</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">@color/text_checkbox</item>
+    </style>
+
+</resources>

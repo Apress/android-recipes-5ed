@@ -1,0 +1,2 @@
+/Users/hellman/Sources/android-recipes/8_02_NativeAppGlue/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/native_app_glue.dir
+/Users/hellman/Sources/android-recipes/8_02_NativeAppGlue/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/native-activity.dir

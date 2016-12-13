@@ -1,0 +1,25 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+    <!-- List with transcript enabled to autoscroll new content -->
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stackFromBottom="true"
+        android:transcriptMode="normal"/>
+
+    <!-- Safety Blocking View -->
+    <!-- Clickable to consume touch events when visible -->
+    <TextView
+        android:id="@+id/blocker"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:clickable="true"
+        android:textSize="32dp"
+        android:textColor="#F55"
+        android:text="It is not safe to operate your mobile device while in a vehicle!"
+        android:background="#C333"
+        android:visibility="gone"/>
+</FrameLayout>

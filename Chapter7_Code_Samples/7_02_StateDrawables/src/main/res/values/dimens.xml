@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="check_padding">8dp</dimen>
+    <dimen name="check_size">40dp</dimen>
+
+    <!-- Steps for keyframe animation -->
+    <dimen name="step_01">16dp</dimen>
+    <dimen name="step_02">14dp</dimen>
+    <dimen name="step_03">12dp</dimen>
+    <dimen name="step_04">10dp</dimen>
+    <dimen name="step_05">8dp</dimen>
+    <dimen name="step_06">6dp</dimen>
+    <dimen name="step_07">4dp</dimen>
+    <dimen name="step_08">2dp</dimen>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+        android:height="64dp"
+        android:width="64dp"
+        android:viewportHeight="48"
+        android:viewportWidth="48">
+    <group
+        android:name="rotateContainer"
+        android:pivotX="24.0"
+        android:pivotY="24.0"
+        android:rotation="45.0">
+        <path
+            android:name="cross"
+            android:strokeColor="#A00"
+            android:strokeWidth="4"
+            android:pathData="@string/path_cross"/>
+    </group>
+</vector>

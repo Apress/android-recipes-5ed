@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_enabled="false"
+        android:drawable="@drawable/check_disabled"/>
+    <item
+        android:id="@+id/state_checked"
+        android:state_checked="true"
+        android:drawable="@drawable/check_checked"/>
+    <!-- Default State -->
+    <item
+        android:id="@+id/state_default"
+        android:drawable="@drawable/check_default"/>
+
+    <!--
+        These transitions only support AnimationDrawable, AnimatedVectorDrawable,
+        or another Animatable as child elements.
+      -->
+    <transition
+        android:fromId="@id/state_default"
+        android:toId="@id/state_checked">
+        <animation-list>
+            <item
+                android:duration="15"
+                android:drawable="@drawable/check_default"/>
+            <item
+                android:duration="15"
+                android:drawable="@drawable/check_to_checked_01"/>
+            <item
+                android:duration="15"
+                android:drawable="@drawable/check_to_checked_02"/>
+            <item
+                android:duration="15"
+                android:drawable="@drawable/check_to_checked_03"/>
+            <item
+                android:duration="15"
+                android:drawable="@drawable/check_to_checked_04"/>
+            <item
+                android:duration="15"
+                android:drawable="@drawable/check_to_checked_05"/>
+            <item
+                android:duration="15"
+                android:drawable="@drawable/check_to_checked_06"/>
+            <item
+                android:duration="15"
+                android:drawable="@drawable/check_to_checked_07"/>
+            <item
+                android:duration="15"
+                android:drawable="@drawable/check_to_checked_08"/>
+            <item
+                android:duration="15"
+                android:drawable="@drawable/check_checked"/>
+        </animation-list>
+    </transition>
+
+</animated-selector>

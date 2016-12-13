@@ -1,0 +1,14 @@
+Executable : /Users/hellman/Library/Android/sdk/cmake/bin/cmake
+arguments : 
+-H/Users/hellman/Sources/android-recipes/8_01_NDKJNI
+-B/Users/hellman/Sources/android-recipes/8_01_NDKJNI/.externalNativeBuild/cmake/debug/mips64
+-GAndroid Gradle - Ninja
+-DANDROID_ABI=mips64
+-DANDROID_NDK=/Users/hellman/Library/Android/sdk/ndk-bundle
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/hellman/Sources/android-recipes/8_01_NDKJNI/.externalNativeBuild/cmake/debug/obj/mips64
+-DCMAKE_BUILD_TYPE=Debug
+-DCMAKE_MAKE_PROGRAM=/Users/hellman/Library/Android/sdk/cmake/bin/ninja
+-DCMAKE_TOOLCHAIN_FILE=/Users/hellman/Library/Android/sdk/cmake/android.toolchain.cmake
+-DANDROID_NATIVE_API_LEVEL=21
+jvmArgs : 
+

@@ -1,0 +1,56 @@
+
+{
+	"buildFiles" : [ "/Users/hellman/Sources/android-recipes/8_01_NDKJNI/CMakeLists.txt" ],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/Users/hellman/Library/Android/sdk/cmake/bin/cmake --build /Users/hellman/Sources/android-recipes/8_01_NDKJNI/.externalNativeBuild/cmake/release/armeabi --target clean"
+	],
+	"libraries" : 
+	{
+		"cpufeatures-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "cpufeatures",
+			"buildCommand" : "/Users/hellman/Library/Android/sdk/cmake/bin/cmake --build /Users/hellman/Sources/android-recipes/8_01_NDKJNI/.externalNativeBuild/cmake/release/armeabi --target cpufeatures",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : " -DANDROID -isystem /Users/hellman/Library/Android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/include -isystem /Users/hellman/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/hellman/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /Users/hellman/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -I/Users/hellman/Library/Android/sdk/ndk-bundle/sources/android/cpufeatures  -fexceptions -fpic -Wno-psabi --sysroot=/Users/hellman/Library/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG        ",
+					"src" : "/Users/hellman/Library/Android/sdk/ndk-bundle/sources/android/cpufeatures/cpu-features.c",
+					"workingDirectory" : "/Users/hellman/Sources/android-recipes/8_01_NDKJNI/.externalNativeBuild/cmake/release/armeabi"
+				}
+			],
+			"output" : "/Users/hellman/Sources/android-recipes/8_01_NDKJNI/.externalNativeBuild/cmake/release/armeabi/libcpufeatures.a",
+			"toolchain" : "15179173398150488096"
+		},
+		"features-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "features",
+			"buildCommand" : "/Users/hellman/Library/Android/sdk/cmake/bin/cmake --build /Users/hellman/Sources/android-recipes/8_01_NDKJNI/.externalNativeBuild/cmake/release/armeabi --target features",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : " -DANDROID -Dfeatures_EXPORTS -isystem /Users/hellman/Library/Android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/include -isystem /Users/hellman/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/hellman/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /Users/hellman/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -I/Users/hellman/Library/Android/sdk/ndk-bundle/sources/android/cpufeatures  -fexceptions -fpic -Wno-psabi --sysroot=/Users/hellman/Library/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG        ",
+					"src" : "/Users/hellman/Sources/android-recipes/8_01_NDKJNI/src/main/c/NativeLibAlternate.c",
+					"workingDirectory" : "/Users/hellman/Sources/android-recipes/8_01_NDKJNI/.externalNativeBuild/cmake/release/armeabi"
+				}
+			],
+			"output" : "/Users/hellman/Sources/android-recipes/8_01_NDKJNI/.externalNativeBuild/cmake/release/obj/armeabi/libfeatures.so",
+			"toolchain" : "15179173398150488096"
+		}
+	},
+	"toolchains" : 
+	{
+		"15179173398150488096" : 
+		{
+			"cCompilerExecutable" : "/Users/hellman/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc",
+			"cppCompilerExecutable" : "/Users/hellman/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++"
+		}
+	}
+}

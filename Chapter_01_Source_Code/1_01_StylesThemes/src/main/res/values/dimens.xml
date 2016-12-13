@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="widgetPadding">8dp</dimen>
+    <dimen name="buttonRadius">8dp</dimen>
+    <dimen name="buttonWidth">96dp</dimen>
+    <dimen name="buttonHeight">48dp</dimen>
+    <dimen name="checkboxWidth">64dp</dimen>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:key="dummyPref"
+        android:title="CheckBox Select"
+        android:summary="Standard preference element"
+        android:defaultValue="false"/>
+    <com.androidrecipes.custompreference.ColorPreference
+        android:key="customColorPref"
+        android:title="Select Color"
+        android:defaultValue="@android:color/black"/>
+</PreferenceScreen>

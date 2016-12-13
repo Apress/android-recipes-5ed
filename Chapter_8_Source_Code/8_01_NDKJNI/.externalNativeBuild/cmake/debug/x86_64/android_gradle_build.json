@@ -1,0 +1,56 @@
+
+{
+	"buildFiles" : [ "/Users/hellman/Sources/android-recipes/8_01_NDKJNI/CMakeLists.txt" ],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/Users/hellman/Library/Android/sdk/cmake/bin/cmake --build /Users/hellman/Sources/android-recipes/8_01_NDKJNI/.externalNativeBuild/cmake/debug/x86_64 --target clean"
+	],
+	"libraries" : 
+	{
+		"cpufeatures-Debug-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "cpufeatures",
+			"buildCommand" : "/Users/hellman/Library/Android/sdk/cmake/bin/cmake --build /Users/hellman/Sources/android-recipes/8_01_NDKJNI/.externalNativeBuild/cmake/debug/x86_64 --target cpufeatures",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : " -DANDROID -isystem /Users/hellman/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include -isystem /Users/hellman/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/hellman/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /Users/hellman/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -I/Users/hellman/Library/Android/sdk/ndk-bundle/sources/android/cpufeatures  -fexceptions --sysroot=/Users/hellman/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64 -funwind-tables -funswitch-loops -finline-limit=300 -fsigned-char -no-canonical-prefixes -fdata-sections -ffunction-sections -Wa,--noexecstack  -fno-omit-frame-pointer -fno-strict-aliasing -O0 -g -DDEBUG -D_DEBUG -fPIC        ",
+					"src" : "/Users/hellman/Library/Android/sdk/ndk-bundle/sources/android/cpufeatures/cpu-features.c",
+					"workingDirectory" : "/Users/hellman/Sources/android-recipes/8_01_NDKJNI/.externalNativeBuild/cmake/debug/x86_64"
+				}
+			],
+			"output" : "/Users/hellman/Sources/android-recipes/8_01_NDKJNI/.externalNativeBuild/cmake/debug/x86_64/libcpufeatures.a",
+			"toolchain" : "931831928487272325"
+		},
+		"features-Debug-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "features",
+			"buildCommand" : "/Users/hellman/Library/Android/sdk/cmake/bin/cmake --build /Users/hellman/Sources/android-recipes/8_01_NDKJNI/.externalNativeBuild/cmake/debug/x86_64 --target features",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : " -DANDROID -Dfeatures_EXPORTS -isystem /Users/hellman/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include -isystem /Users/hellman/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/hellman/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /Users/hellman/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -I/Users/hellman/Library/Android/sdk/ndk-bundle/sources/android/cpufeatures  -fexceptions --sysroot=/Users/hellman/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64 -funwind-tables -funswitch-loops -finline-limit=300 -fsigned-char -no-canonical-prefixes -fdata-sections -ffunction-sections -Wa,--noexecstack  -fno-omit-frame-pointer -fno-strict-aliasing -O0 -g -DDEBUG -D_DEBUG -fPIC        ",
+					"src" : "/Users/hellman/Sources/android-recipes/8_01_NDKJNI/src/main/c/NativeLibAlternate.c",
+					"workingDirectory" : "/Users/hellman/Sources/android-recipes/8_01_NDKJNI/.externalNativeBuild/cmake/debug/x86_64"
+				}
+			],
+			"output" : "/Users/hellman/Sources/android-recipes/8_01_NDKJNI/.externalNativeBuild/cmake/debug/obj/x86_64/libfeatures.so",
+			"toolchain" : "931831928487272325"
+		}
+	},
+	"toolchains" : 
+	{
+		"931831928487272325" : 
+		{
+			"cCompilerExecutable" : "/Users/hellman/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/bin/x86_64-linux-android-gcc",
+			"cppCompilerExecutable" : "/Users/hellman/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/bin/x86_64-linux-android-g++"
+		}
+	}
+}

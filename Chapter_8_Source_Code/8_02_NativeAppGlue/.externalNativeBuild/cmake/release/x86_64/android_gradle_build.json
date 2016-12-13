@@ -1,0 +1,59 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/hellman/Sources/android-recipes/8_02_NativeAppGlue/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/Users/hellman/Library/Android/sdk/cmake/bin/cmake --build /Users/hellman/Sources/android-recipes/8_02_NativeAppGlue/.externalNativeBuild/cmake/release/x86_64 --target clean"
+	],
+	"libraries" : 
+	{
+		"native-activity-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "native-activity",
+			"buildCommand" : "/Users/hellman/Library/Android/sdk/cmake/bin/cmake --build /Users/hellman/Sources/android-recipes/8_02_NativeAppGlue/.externalNativeBuild/cmake/release/x86_64 --target native-activity",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : " -DANDROID -Dnative_activity_EXPORTS -isystem /Users/hellman/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include -isystem /Users/hellman/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/hellman/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /Users/hellman/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -I../../../.././ndk_helper -I/Users/hellman/Library/Android/sdk/ndk-bundle/sources/android/native_app_glue  -fexceptions --sysroot=/Users/hellman/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64 -funwind-tables -funswitch-loops -finline-limit=300 -fsigned-char -no-canonical-prefixes -fdata-sections -ffunction-sections -Wa,--noexecstack  -fomit-frame-pointer -fstrict-aliasing -O3 -DNDEBUG -fPIC        ",
+					"src" : "/Users/hellman/Sources/android-recipes/8_02_NativeAppGlue/src/main/c/activity.c",
+					"workingDirectory" : "/Users/hellman/Sources/android-recipes/8_02_NativeAppGlue/.externalNativeBuild/cmake/release/x86_64"
+				}
+			],
+			"output" : "/Users/hellman/Sources/android-recipes/8_02_NativeAppGlue/.externalNativeBuild/cmake/release/obj/x86_64/libnative-activity.so",
+			"toolchain" : "931831928487272325"
+		},
+		"native_app_glue-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "native_app_glue",
+			"buildCommand" : "/Users/hellman/Library/Android/sdk/cmake/bin/cmake --build /Users/hellman/Sources/android-recipes/8_02_NativeAppGlue/.externalNativeBuild/cmake/release/x86_64 --target native_app_glue",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : " -DANDROID -isystem /Users/hellman/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include -isystem /Users/hellman/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/hellman/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /Users/hellman/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -I../../../.././ndk_helper -I/Users/hellman/Library/Android/sdk/ndk-bundle/sources/android/native_app_glue  -fexceptions --sysroot=/Users/hellman/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64 -funwind-tables -funswitch-loops -finline-limit=300 -fsigned-char -no-canonical-prefixes -fdata-sections -ffunction-sections -Wa,--noexecstack  -fomit-frame-pointer -fstrict-aliasing -O3 -DNDEBUG -fPIC        ",
+					"src" : "/Users/hellman/Library/Android/sdk/ndk-bundle/sources/android/native_app_glue/android_native_app_glue.c",
+					"workingDirectory" : "/Users/hellman/Sources/android-recipes/8_02_NativeAppGlue/.externalNativeBuild/cmake/release/x86_64"
+				}
+			],
+			"output" : "/Users/hellman/Sources/android-recipes/8_02_NativeAppGlue/.externalNativeBuild/cmake/release/x86_64/libnative_app_glue.a",
+			"toolchain" : "931831928487272325"
+		}
+	},
+	"toolchains" : 
+	{
+		"931831928487272325" : 
+		{
+			"cCompilerExecutable" : "/Users/hellman/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/bin/x86_64-linux-android-gcc",
+			"cppCompilerExecutable" : "/Users/hellman/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/bin/x86_64-linux-android-g++"
+		}
+	}
+}

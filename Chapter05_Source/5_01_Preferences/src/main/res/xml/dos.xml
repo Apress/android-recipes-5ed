@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:key="moreScreen"
+                  android:title="More Settings">
+    <ListPreference
+        android:key="colorPref"
+        android:title="Favorite Color"
+        android:summary="Choose your favorite color"
+        android:entries="@array/color_names"
+        android:entryValues="@array/color_values"
+        android:defaultValue="GRN"
+        />
+    <PreferenceCategory
+        android:title="Location Settings">
+        <CheckBoxPreference
+            android:key="gpsPref"
+            android:title="Use GPS Location"
+            android:summary="Use GPS to Find You"
+            android:defaultValue="true"
+            />
+        <CheckBoxPreference
+            android:key="networkPref"
+            android:title="Use Network Location"
+            android:summary="Use Network to Find You"
+            android:defaultValue="true"
+            />
+    </PreferenceCategory>
+</PreferenceScreen>
